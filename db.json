@@ -1,9 +1,14 @@
-[
-    {
-        "name":"Indonesia",
-        "positif":"3,568,331",
-        "sembuh":"2,947,646",
-        "meninggal":"102,375",
-        "dirawat":"518,310"
+{
+    "posts": [
+      { "id": 1, "title": "Post 1" },
+      { "id": 2, "title": "Post 2" },
+      { "id": 3, "title": "Post 3" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 },
+      { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+      "name": "typicode"
     }
-]
+  }
